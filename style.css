@@ -1,0 +1,46 @@
+.navflex {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: right;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    align-items: flex-end;
+    position: sticky;
+  }
+  
+  .nav1 {
+    padding: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  
+  .nav1:hover {
+    background-color:rgb(255, 255, 255);
+    color: black;
+  }
+
+  .nav2 {
+    padding: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  .nav2:hover {
+    background-color:rgb(255, 255, 255);
+    color: black;
+  }
+  .nav3 {
+    padding: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  .nav4 {
+    padding: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  .nav4:hover {
+    background-color:rgb(255, 255, 255);
+    color: black;
+  }
+
