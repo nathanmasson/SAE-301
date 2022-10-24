@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Compte</title>
+    <title>Inscription</title>
     <link/>
     <script>
     </script>
@@ -22,20 +22,29 @@
         <div>
         <div>
           <label for="mail">E-mail :</label>
-          <input type="email" id="mail" name="user_email" required/>
+          <input type="email" id="mail" name="mail" required/>
         </div>
         <div>
             <label for="tel">Numéro de téléphone :</label>
-            <input type="tel" id="tel" name="tel" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" maxlength="10" required />
+            <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" required />
             <p>Format d'écriture: 0606060606</p>
-          </div>  
+        </div>  
         <div>
           <label for="mdp">Mot de passe :</label>
-          <input type="password" id="mdp" name="mdp" minlength="4" required/>
+          <input type="password" id="mdp" name="mdp" pattern="[0-9a-fA-F]{8,30}" required/>
+          <p>Format requis :</p>
+          <ul>
+            <li>Des lettres minuscules</li>
+            <li>Des lettres majuscules</li>
+            <li>Des chiffres</li>
+            <li>Minimum 8 caractères</li>
+            <li>Maximum 30 caractères</li>
+          </ul>
         </div>
         <div>
             <input type="submit" value="Inscrivez-vous">
         </div>
+        <a href="connexion.html">Connectez-vous</a>
       </form>
     <script src="script.js"></script>
   </body>
