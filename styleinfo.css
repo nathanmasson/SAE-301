@@ -1,0 +1,28 @@
+
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+    height: 350px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+}
+
+.info1
+{
+background-color: aqua;
+flex: 1;
+flex-direction: row;
+}
+.but
+{
+display: flex ;
+}
+.info2
+{
+background-color: aqua;
+flex: 1;
+}
+.info3
+{
+background-color: aqua;
+flex: 1;
+}
