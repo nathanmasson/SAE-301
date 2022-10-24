@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="" method="post">
+    <form action="recup.php" method="post">
         <div>
           <label for="nom">Nom :</label>
           <input type="text" id="nom" name="nom" required/>
@@ -26,7 +26,7 @@
         </div>
         <div>
             <label for="tel">Numéro de téléphone :</label>
-            <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" required />
+            <input type="tel" id="tel" name="tel" maxlength="10" pattern="[0-9]{10}" required />
             <p>Format d'écriture: 0606060606</p>
         </div>  
         <div>

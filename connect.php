@@ -1,5 +1,5 @@
 <?php
-    $serveur = "localhost";
+    $serveur = "localhost:3306";
     $dbname = "sae-301";
     $user = "root";
     $pass = "root";
