@@ -1,6 +1,6 @@
 <?php
     $serveur = "localhost";
-    $dbname = "sae-301";
+    $dbname = "sae_301";
     $user = "root";
     $pass = "";
     
