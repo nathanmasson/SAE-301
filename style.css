@@ -44,3 +44,20 @@
     color: black;
   }
 
+
+/*__________________________Page Invité______________________________________*/
+
+.menuD{
+    display: flex;
+    justify-content: center;
+}
+
+.test1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.test2{
+    display: flex;
+    justify-content: flex-end;
+}
