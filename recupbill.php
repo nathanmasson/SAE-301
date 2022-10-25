@@ -1,16 +1,16 @@
 <?php
 
     include 'connect.php';
-    
-    $nom = $_POST["nom"];
-    $prenom = $_POST["prenom"];
-    $mail = $_POST["mail"];
-    $tel = $_POST["tel"];
-    $mdp = $_POST["mdp"];
 
-    $sqlQuery = $dbco ->prepare ('INSERT INTO compte(nom, prenom, tel, mdp, mail) VALUES (:nom,:prenom,:tel,:mdp,:mail)');
+    $jp = $_POST["jp"];
+    $jd = $_POST["jd"];
+    $jt = $_POST["jt"];
+    $tel = $_POST["tel"];
+
+    $sqlQuery = $dbco ->prepare ('INSERT INTO achete(id_journee) VALUES (:id_journee)');
 
     // Exécution ! La recette est maintenant en base de données
+    if ()
     $sqlQuery ->bindParam(':nom',$nom);
     $sqlQuery ->bindParam(':prenom',$prenom); 
     $sqlQuery ->bindParam(':tel',$tel);

@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <form action="" method="post">
+  <h2>Veuillez sélectionner les journées que vous souhaitez réserver</h2>
+  <form action="recupbill.php" method="post">
     <div>
       <input type="checkbox" id="jp" name="jp" checked>
       <label for="jp">Première journée</label>
