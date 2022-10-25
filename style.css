@@ -116,11 +116,45 @@ body {
     text-decoration: none;
   }
   .expliconcours {
+    background-size: cover;
     display: flex;
-    background-color: black;
     width: 60%;
     height: 50vh;
     justify-content: center;
-    align-items: center;
     margin-left: 20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    
+  }
+  .text1 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  .text2 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  .text3 {
+    display: flex;
+    width: 100%;
+    text-align: center ;
+  }
+  .prix {
+    display: flex;
+    padding: 4vh;
+  }
+  .animation {
+    display: flex;
+    width: 33%;
+  }
+  .avecfx {
+    display: flex;
+    width: 33%;
+  }
+  .rélastique {
+    display: flex;
+    width: 33%;
   }
