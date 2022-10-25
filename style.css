@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .navflex {
     display: flex;
     flex-direction: row;
@@ -5,59 +9,105 @@
     justify-content: right;
     background-color: rgb(0, 0, 0);
     color: white;
-    align-items: flex-end;
+    align-items: center;
     position: sticky;
+    height: 4%;
+    font-size: 0.8vw;
+    padding: 5px;
   }
-  
   .nav1 {
-    padding: 15px;
+    display: flex;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
   }
   
   .nav1:hover {
+    align-items: center;
+    justify-content: center;
     background-color:rgb(255, 255, 255);
     color: black;
   }
 
   .nav2 {
-    padding: 15px;
+    display: flex;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    align-items: center;
+    justify-content: right;
+    width: 40%;
+    padding-left: 18%;
   }
   .nav2:hover {
-    background-color:rgb(255, 255, 255);
-    color: black;
+
+    align-items: center;
+    justify-content: right;
+    color: rgb(255, 255, 255);
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    padding: 1vw;
   }
   .nav3 {
-    padding: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 10%;
   }
   .nav4 {
-    padding: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
-  }
-  .nav4:hover {
-    background-color:rgb(255, 255, 255);
-    color: black;
-  }
-
-
-/*__________________________Page Invité______________________________________*/
-
-.menuD{
     display: flex;
+    align-items: center;
     justify-content: center;
-}
-
-.test1{
+    width: 10%;
+  }
+  .nav5 {
     display: flex;
-    justify-content: flex-start;
-}
-
-.test2{
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 0%;
+  }
+  .navflex2{
     display: flex;
-    justify-content: flex-end;
-}
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    align-items: center;
+    position: sticky;
+    height: 4%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.7vw;
+  }
+  .programme {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 25%;
+  }
+  .invites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+  }
+  .concours {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 25%;
+  }
+  .lien {
+    color: black;
+    text-decoration: none;
+  }
