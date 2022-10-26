@@ -5,7 +5,7 @@
     $jp = $_POST["jp"];
     $jd = $_POST["jd"];
     $jt = $_POST["jt"];
-    $tel = $_POST["tel"];
+    $id = $_POST["id"];
 
     $sqlQuery = $dbco ->prepare ('INSERT INTO achete(id_journee) VALUES (:id_journee)');
 
