@@ -1,0 +1,62 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.barho
+{
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(0, 0, 0) , rgb(255, 255, 255) );
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 0) , rgb(255, 255, 255) );
+    margin-top: 50px;
+    width: 100vw;
+    height: 4px; 
+}
+
+#conteneurf
+{
+    display: flex;  
+    height: 250px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+    width: 100%;  /* permet de modifier la largeur de la boite */
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1%;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+
+.fondf
+{
+    background: linear-gradient(to bottom, rgb(255, 255, 255) , rgb(0, 0, 0) 10%);
+    width: 100vw;
+    height: 150PX;
+}
+
+.logof
+{
+    width: 75px;
+    height: 75px;   
+    background-color: white;
+    border-radius: 50%;
+}
+.footerM
+{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 5% 150px;
+    font-size: x-large;
+    border: rgb(255, 255, 255) solid ;
+    padding: 10px; 
+}
+.footerM:hover 
+{
+    color: #ffffff;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5%;
+    transition: 0.3s;
+}
