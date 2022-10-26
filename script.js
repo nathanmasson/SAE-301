@@ -32,17 +32,3 @@ var max = $('#c > li').length;
 		$("#c > li").eq(i + 3).css('left','75%').addClass('active').css('transition-delay','2s');
 	
 	}, timer);
-	var swiper = new Swiper('.swiper-container', {
-		loop:true,
-		autoplay: {
-		  delay: 4000
-		},
-		pagination: {
-		  el: '.swiper-pagination',
-		  clickable: true,
-		  renderBullet: function (index, className) {
-			return '<span class="' + className + '">' + (index + 1) + '</span>';
-		  },
-		},
-	  });
- 
