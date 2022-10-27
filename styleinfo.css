@@ -1,0 +1,117 @@
+#conteneur
+{
+    display: flex;
+    height: 250px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+    width: 100%;  /* permet de modifier la largeur de la boite */
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2%;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+
+.fond
+{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0%;
+    height:500px ;
+}
+
+.imagefond
+{
+    width: 70vw;  
+}
+
+.fond .grandtitre
+{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    top: 40%;
+}
+
+.explication
+{
+    margin-top: 20px;
+    font-style: italic;
+    color: #ee0a0a;
+}
+
+.grandtitre
+{
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    border: solid aliceblue;
+    color: aliceblue;   
+    width: 40vw ;
+}
+
+
+.box
+{
+    display: flex;
+    flex-direction: row;
+ 
+    justify-content: center;
+
+    width: 100vw;
+    height: 150px;
+}
+.interbox
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 3s;
+}
+
+
+.but
+{
+    margin-right: 5%;
+    font-family: 'Parisienne', cursive;
+    width: 49vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titre 
+{
+    width: 49vw;
+    margin-bottom: 30px;
+    
+}
+
+.boutton 
+{
+    background-color: white;
+    padding: 0px 100px;
+    margin: 0px 4px;
+    color: rgb(2, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid;
+}
+  .boutton:hover {
+    color: #ee0a0a;
+    background-color: #ee0a0a;
+    color: white;
+    border-radius: 5%;
+    transition: 0.3s;
+}
+
+
+.vertical
+{ 
+    border-left: 4px solid black; 
+    height: 150px; 
+} 
