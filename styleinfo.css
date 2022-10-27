@@ -1,8 +1,46 @@
+
+body
+{
+    padding: 0%;
+}
+
+.fond
+{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0%;
+    height:500px ;
+    align-items: center;
+}
+
+.imagefond
+{
+    width: 70vw;
+}
+
+.fond .grandtitre
+{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+}
+
+
+.sep
+{
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 0) , rgb(255, 255, 255) );
+    margin:30% 0%;
+    width: 100%;
+    height: 4px;
+    margin-bottom: 5%; 
+}
+
+ 
 #conteneur
 {
     display: flex;
-    height: 250px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
-    width: 100%;  /* permet de modifier la largeur de la boite */
+    width: 100%;  
+    margin: 15% 0%;
 
     text-align: center;
     align-items: center;
@@ -12,27 +50,6 @@
 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: large;
-}
-
-.fond
-{
-    display: flex;
-    justify-content: center;
-    margin: 5% 0%;
-    height:500px ;
-}
-
-.imagefond
-{
-    width: 70vw;  
-}
-
-.fond .grandtitre
-{
-    position: absolute;
-    text-align: center;
-    width: 40%;
-    top: 40%;
 }
 
 .explication
@@ -55,12 +72,10 @@
 .box
 {
     display: flex;
-    flex-direction: row;
  
     justify-content: center;
 
-    width: 100vw;
-    height: 150px;
+
 }
 .interbox
 {
@@ -74,16 +89,15 @@
 
 .but
 {
-    margin-right: 5%;
-    font-family: 'Parisienne', cursive;
-    width: 49vw;
+    margin-right: 10%;
+    font-family: 'Parisienne', cursive; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .titre 
 {
-    width: 49vw;
     margin-bottom: 30px;
     
 }
@@ -115,3 +129,34 @@
     border-left: 4px solid black; 
     height: 150px; 
 } 
+
+
+
+@media screen and (max-width: 1200px) { 
+    .fond .grandtitre
+{
+width: 30vw;
+}
+    .imagefond
+{
+width: 100vw;
+}
+    .box
+{
+flex-direction: column;
+text-align: center;
+}    
+    .vertical
+{
+height: 0%;
+}
+    .but
+{
+margin-right: 0%;
+}
+    .sep
+{
+    width: 0%;
+    height: 0%;
+}
+}
