@@ -25,10 +25,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
   }
-  .nav2:hover {
-    background-color:rgb(255, 255, 255);
-    color: black;
-  }
+  
   .nav3 {
     padding: 15px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -43,21 +40,3 @@
     background-color:rgb(255, 255, 255);
     color: black;
   }
-
-
-/*__________________________Page Invité______________________________________*/
-
-.menuD{
-    display: flex;
-    justify-content: center;
-}
-
-.test1{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.test2{
-    display: flex;
-    justify-content: flex-end;
-}
