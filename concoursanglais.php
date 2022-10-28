@@ -7,7 +7,7 @@
     <title>Le Fantastique du Velay</title>
     <link/>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
@@ -79,6 +79,6 @@
     <footer>
       <?php include 'footeranglais.php';?>
     </footer>
-    <script src="script.js"></script>
+    <script src="java/script.js"></script>
   </body>
 </html>
