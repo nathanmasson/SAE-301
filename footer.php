@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
 <<<<<<< HEAD
-    <link rel="stylesheet" href="styefooter.css">
+    <link rel="stylesheet" href="css/styefooter.css">
   </head>
 <body>
 <div class="container">

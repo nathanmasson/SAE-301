@@ -7,7 +7,7 @@
     <title>Le Fantastique du Velay</title>
     <link/>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
           <header>
