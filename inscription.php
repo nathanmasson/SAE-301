@@ -8,7 +8,7 @@
     <link/>
     <script>
     </script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -49,6 +49,6 @@
       <footer>
         <?php include 'footer.php'; ?>
       </footer>
-    <script src="script.js"></script>
+    <script src="java/script.js"></script>
   </body>
 </html>
