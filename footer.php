@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styefooter.css">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="styefooter.css">
   </head>
 <body>
 <div class="container">

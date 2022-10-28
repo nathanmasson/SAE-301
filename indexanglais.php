@@ -8,7 +8,7 @@
     <link/>
     <script>
     </script>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
   </head>
   <body>
@@ -25,6 +25,6 @@
       <footer>
         <?php include 'footeranglais.php';?>
       </footer>
-    <script src="java/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

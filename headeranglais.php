@@ -14,7 +14,7 @@
           <header>
           <div class="navflex">
             <div class="nav1">
-            <img src="images/Fichier 1.png" width="20%" class="panier">
+            <a class="lien" href="invite.php"><img src="images/Fichier 1.png" width="20%"class="panier"></a>
             <a href="index.php"><img src="images/fr.png" width="50px"></a>
             </div>
             <div class="nav2">
