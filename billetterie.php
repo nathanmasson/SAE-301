@@ -10,7 +10,7 @@
   <link/>
   <script>
   </script>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <h2>Veuillez sélectionner les journées que vous souhaitez réserver</h2>
@@ -34,6 +34,6 @@
         <input type="submit" value="Inscrivez-vous">
     </div>
   </form>
-  <script src="script.js"></script>
+  <script src="java/script.js"></script>
 </body>
 </html>

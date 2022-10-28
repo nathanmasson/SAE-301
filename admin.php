@@ -15,7 +15,7 @@ $invite = $liste->fetchAll();
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Administrateur</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <h1>Liste des invités</h1>
@@ -32,6 +32,6 @@ $invite = $liste->fetchAll();
       <?php endforeach; ?>
     </ul>
 
-    <script src="script.js"></script>
+    <script src="java/script.js"></script>
   </body>
 </html>

@@ -26,6 +26,6 @@
   <body>
     <h1>Suppression</h1>
     <p><?= $message ?></p>
-    <script src="script.js"></script>
+    <script src="java/script.js"></script>
   </body>
 </html> 
