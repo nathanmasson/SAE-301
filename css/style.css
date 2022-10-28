@@ -22,6 +22,12 @@ body {
     align-items: center;
     justify-content: center;
     width: 10%;
+    margin: 0% 1%;
+  }
+  
+  .panier
+  {
+    margin: 0% 30%;
   }
   
   .nav1:hover {

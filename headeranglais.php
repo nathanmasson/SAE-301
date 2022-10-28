@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Le Fantastique du Velay</title>
     <link/>
-    <script src="script.js"></script>
+
+    <script src="java/script.js"></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
           <header>
           <div class="navflex">
             <div class="nav1">
-            <img src="images/Fichier 1.png" width="20%">
+            <img src="images/Fichier 1.png" width="20%" class="panier">
+            <a href="index.php"><img src="images/fr.png" width="50px"></a>
             </div>
             <div class="nav2">
               <a class="accueil" href="indexanglais.php"><h1>Le Fantastique Du Velay</h1></a>
